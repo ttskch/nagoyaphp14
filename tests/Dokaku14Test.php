@@ -20,6 +20,8 @@ class Dokaku14Test extends TestCase
 
     /**
      * @dataProvider dataProvider
+     *
+     * @group ft
      */
     public function test($input, $expected)
     {
